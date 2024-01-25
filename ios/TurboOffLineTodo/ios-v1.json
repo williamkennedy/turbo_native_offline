@@ -1,0 +1,1 @@
+{"settings":{},"rules":[{"patterns":["/new$","/edit$"],"properties":{"context":"modal"}},{"patterns":["/native_todos$"],"properties":{"view-controller":"todos"}}]}

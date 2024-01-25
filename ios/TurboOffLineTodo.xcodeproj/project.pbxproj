@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3B87352B54290700387FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B87342B54290700387FA5 /* AppDelegate.swift */; };
+		FE3B87372B54290700387FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B87362B54290700387FA5 /* SceneDelegate.swift */; };
+		FE3B87392B54290700387FA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B87382B54290700387FA5 /* ViewController.swift */; };
+		FE3B873C2B54290700387FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3B873A2B54290700387FA5 /* Main.storyboard */; };
+		FE3B873E2B54290900387FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3B873D2B54290900387FA5 /* Assets.xcassets */; };
+		FE3B87412B54290900387FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3B873F2B54290900387FA5 /* LaunchScreen.storyboard */; };
+		FE3B874C2B54290900387FA5 /* TurboOffLineTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B874B2B54290900387FA5 /* TurboOffLineTodoTests.swift */; };
+		FE3B87562B54290900387FA5 /* TurboOffLineTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B87552B54290900387FA5 /* TurboOffLineTodoUITests.swift */; };
+		FE3B87582B54290900387FA5 /* TurboOffLineTodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B87572B54290900387FA5 /* TurboOffLineTodoUITestsLaunchTests.swift */; };
+		FE3B87692B542A8F00387FA5 /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = FE3B87682B542A8F00387FA5 /* Turbo */; };
+		FE3B876C2B542AC900387FA5 /* TurboNavigator in Frameworks */ = {isa = PBXBuildFile; productRef = FE3B876B2B542AC900387FA5 /* TurboNavigator */; };
+		FE3B876E2B55824600387FA5 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B876D2B55824600387FA5 /* ToDoViewController.swift */; };
+		FE3B87702B55848F00387FA5 /* TodoIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B876F2B55848F00387FA5 /* TodoIndex.swift */; };
+		FE3B87742B5D808400387FA5 /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B87732B5D808400387FA5 /* AppDatabase.swift */; };
+		FE3B87782B5D84C700387FA5 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = FE3B87772B5D84C700387FA5 /* GRDB */; };
+		FE3B877A2B5D84C700387FA5 /* GRDBQuery in Frameworks */ = {isa = PBXBuildFile; productRef = FE3B87792B5D84C700387FA5 /* GRDBQuery */; };
+		FE3B877C2B5D869200387FA5 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B877B2B5D869200387FA5 /* Todo.swift */; };
+		FE3B877E2B5D87DA00387FA5 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B877D2B5D87DA00387FA5 /* Persistance.swift */; };
+		FE3B87802B5F074B00387FA5 /* NewTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B877F2B5F074B00387FA5 /* NewTodoView.swift */; };
+		FE3B87822B60035100387FA5 /* EditTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B87812B60035100387FA5 /* EditTodoView.swift */; };
+		FE3B87842B6020FC00387FA5 /* ios-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = FE3B87832B601E6000387FA5 /* ios-v1.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE3B87482B54290900387FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3B87292B54290700387FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3B87302B54290700387FA5;
+			remoteInfo = TurboOffLineTodo;
+		};
+		FE3B87522B54290900387FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3B87292B54290700387FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3B87302B54290700387FA5;
+			remoteInfo = TurboOffLineTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE3B87312B54290700387FA5 /* TurboOffLineTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboOffLineTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3B87342B54290700387FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE3B87362B54290700387FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE3B87382B54290700387FA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE3B873B2B54290700387FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3B873D2B54290900387FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE3B87402B54290900387FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE3B87422B54290900387FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3B87472B54290900387FA5 /* TurboOffLineTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboOffLineTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3B874B2B54290900387FA5 /* TurboOffLineTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboOffLineTodoTests.swift; sourceTree = "<group>"; };
+		FE3B87512B54290900387FA5 /* TurboOffLineTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboOffLineTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3B87552B54290900387FA5 /* TurboOffLineTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboOffLineTodoUITests.swift; sourceTree = "<group>"; };
+		FE3B87572B54290900387FA5 /* TurboOffLineTodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboOffLineTodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE3B876D2B55824600387FA5 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		FE3B876F2B55848F00387FA5 /* TodoIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoIndex.swift; sourceTree = "<group>"; };
+		FE3B87732B5D808400387FA5 /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
+		FE3B877B2B5D869200387FA5 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		FE3B877D2B5D87DA00387FA5 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		FE3B877F2B5F074B00387FA5 /* NewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoView.swift; sourceTree = "<group>"; };
+		FE3B87812B60035100387FA5 /* EditTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTodoView.swift; sourceTree = "<group>"; };
+		FE3B87832B601E6000387FA5 /* ios-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "ios-v1.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3B872E2B54290700387FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B87782B5D84C700387FA5 /* GRDB in Frameworks */,
+				FE3B87692B542A8F00387FA5 /* Turbo in Frameworks */,
+				FE3B877A2B5D84C700387FA5 /* GRDBQuery in Frameworks */,
+				FE3B876C2B542AC900387FA5 /* TurboNavigator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B87442B54290900387FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B874E2B54290900387FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3B87282B54290700387FA5 = {
+			isa = PBXGroup;
+			children = (
+				FE3B87332B54290700387FA5 /* TurboOffLineTodo */,
+				FE3B874A2B54290900387FA5 /* TurboOffLineTodoTests */,
+				FE3B87542B54290900387FA5 /* TurboOffLineTodoUITests */,
+				FE3B87322B54290700387FA5 /* Products */,
+				FE3B87672B542A8F00387FA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3B87322B54290700387FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B87312B54290700387FA5 /* TurboOffLineTodo.app */,
+				FE3B87472B54290900387FA5 /* TurboOffLineTodoTests.xctest */,
+				FE3B87512B54290900387FA5 /* TurboOffLineTodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3B87332B54290700387FA5 /* TurboOffLineTodo */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B87832B601E6000387FA5 /* ios-v1.json */,
+				FE3B87722B5D807200387FA5 /* Models */,
+				FE3B87342B54290700387FA5 /* AppDelegate.swift */,
+				FE3B87362B54290700387FA5 /* SceneDelegate.swift */,
+				FE3B87382B54290700387FA5 /* ViewController.swift */,
+				FE3B876D2B55824600387FA5 /* ToDoViewController.swift */,
+				FE3B87712B55894900387FA5 /* Views */,
+				FE3B873A2B54290700387FA5 /* Main.storyboard */,
+				FE3B873D2B54290900387FA5 /* Assets.xcassets */,
+				FE3B873F2B54290900387FA5 /* LaunchScreen.storyboard */,
+				FE3B87422B54290900387FA5 /* Info.plist */,
+			);
+			path = TurboOffLineTodo;
+			sourceTree = "<group>";
+		};
+		FE3B874A2B54290900387FA5 /* TurboOffLineTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B874B2B54290900387FA5 /* TurboOffLineTodoTests.swift */,
+			);
+			path = TurboOffLineTodoTests;
+			sourceTree = "<group>";
+		};
+		FE3B87542B54290900387FA5 /* TurboOffLineTodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B87552B54290900387FA5 /* TurboOffLineTodoUITests.swift */,
+				FE3B87572B54290900387FA5 /* TurboOffLineTodoUITestsLaunchTests.swift */,
+			);
+			path = TurboOffLineTodoUITests;
+			sourceTree = "<group>";
+		};
+		FE3B87672B542A8F00387FA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE3B87712B55894900387FA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B876F2B55848F00387FA5 /* TodoIndex.swift */,
+				FE3B87812B60035100387FA5 /* EditTodoView.swift */,
+				FE3B877F2B5F074B00387FA5 /* NewTodoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE3B87722B5D807200387FA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B87732B5D808400387FA5 /* AppDatabase.swift */,
+				FE3B877B2B5D869200387FA5 /* Todo.swift */,
+				FE3B877D2B5D87DA00387FA5 /* Persistance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3B87302B54290700387FA5 /* TurboOffLineTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3B875B2B54290900387FA5 /* Build configuration list for PBXNativeTarget "TurboOffLineTodo" */;
+			buildPhases = (
+				FE3B872D2B54290700387FA5 /* Sources */,
+				FE3B872E2B54290700387FA5 /* Frameworks */,
+				FE3B872F2B54290700387FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurboOffLineTodo;
+			packageProductDependencies = (
+				FE3B87682B542A8F00387FA5 /* Turbo */,
+				FE3B876B2B542AC900387FA5 /* TurboNavigator */,
+				FE3B87772B5D84C700387FA5 /* GRDB */,
+				FE3B87792B5D84C700387FA5 /* GRDBQuery */,
+			);
+			productName = TurboOffLineTodo;
+			productReference = FE3B87312B54290700387FA5 /* TurboOffLineTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE3B87462B54290900387FA5 /* TurboOffLineTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3B875E2B54290900387FA5 /* Build configuration list for PBXNativeTarget "TurboOffLineTodoTests" */;
+			buildPhases = (
+				FE3B87432B54290900387FA5 /* Sources */,
+				FE3B87442B54290900387FA5 /* Frameworks */,
+				FE3B87452B54290900387FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3B87492B54290900387FA5 /* PBXTargetDependency */,
+			);
+			name = TurboOffLineTodoTests;
+			productName = TurboOffLineTodoTests;
+			productReference = FE3B87472B54290900387FA5 /* TurboOffLineTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE3B87502B54290900387FA5 /* TurboOffLineTodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3B87612B54290900387FA5 /* Build configuration list for PBXNativeTarget "TurboOffLineTodoUITests" */;
+			buildPhases = (
+				FE3B874D2B54290900387FA5 /* Sources */,
+				FE3B874E2B54290900387FA5 /* Frameworks */,
+				FE3B874F2B54290900387FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3B87532B54290900387FA5 /* PBXTargetDependency */,
+			);
+			name = TurboOffLineTodoUITests;
+			productName = TurboOffLineTodoUITests;
+			productReference = FE3B87512B54290900387FA5 /* TurboOffLineTodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3B87292B54290700387FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FE3B87302B54290700387FA5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FE3B87462B54290900387FA5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FE3B87302B54290700387FA5;
+					};
+					FE3B87502B54290900387FA5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FE3B87302B54290700387FA5;
+					};
+				};
+			};
+			buildConfigurationList = FE3B872C2B54290700387FA5 /* Build configuration list for PBXProject "TurboOffLineTodo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3B87282B54290700387FA5;
+			packageReferences = (
+				FE3B87642B54292B00387FA5 /* XCRemoteSwiftPackageReference "turbo-ios" */,
+				FE3B876A2B542AB200387FA5 /* XCRemoteSwiftPackageReference "TurboNavigator" */,
+				FE3B87752B5D820100387FA5 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				FE3B87762B5D825700387FA5 /* XCRemoteSwiftPackageReference "GRDBQuery" */,
+			);
+			productRefGroup = FE3B87322B54290700387FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3B87302B54290700387FA5 /* TurboOffLineTodo */,
+				FE3B87462B54290900387FA5 /* TurboOffLineTodoTests */,
+				FE3B87502B54290900387FA5 /* TurboOffLineTodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3B872F2B54290700387FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B87412B54290900387FA5 /* LaunchScreen.storyboard in Resources */,
+				FE3B873E2B54290900387FA5 /* Assets.xcassets in Resources */,
+				FE3B87842B6020FC00387FA5 /* ios-v1.json in Resources */,
+				FE3B873C2B54290700387FA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B87452B54290900387FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B874F2B54290900387FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3B872D2B54290700387FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B87822B60035100387FA5 /* EditTodoView.swift in Sources */,
+				FE3B877C2B5D869200387FA5 /* Todo.swift in Sources */,
+				FE3B87742B5D808400387FA5 /* AppDatabase.swift in Sources */,
+				FE3B876E2B55824600387FA5 /* ToDoViewController.swift in Sources */,
+				FE3B87802B5F074B00387FA5 /* NewTodoView.swift in Sources */,
+				FE3B87392B54290700387FA5 /* ViewController.swift in Sources */,
+				FE3B87352B54290700387FA5 /* AppDelegate.swift in Sources */,
+				FE3B877E2B5D87DA00387FA5 /* Persistance.swift in Sources */,
+				FE3B87702B55848F00387FA5 /* TodoIndex.swift in Sources */,
+				FE3B87372B54290700387FA5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B87432B54290900387FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B874C2B54290900387FA5 /* TurboOffLineTodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B874D2B54290900387FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B87562B54290900387FA5 /* TurboOffLineTodoUITests.swift in Sources */,
+				FE3B87582B54290900387FA5 /* TurboOffLineTodoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE3B87492B54290900387FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3B87302B54290700387FA5 /* TurboOffLineTodo */;
+			targetProxy = FE3B87482B54290900387FA5 /* PBXContainerItemProxy */;
+		};
+		FE3B87532B54290900387FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3B87302B54290700387FA5 /* TurboOffLineTodo */;
+			targetProxy = FE3B87522B54290900387FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE3B873A2B54290700387FA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3B873B2B54290700387FA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3B873F2B54290900387FA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3B87402B54290900387FA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3B87592B54290900387FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE3B875A2B54290900387FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3B875C2B54290900387FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z48N4YUHBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurboOffLineTodo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helmethead.ie.TurboOffLineTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE3B875D2B54290900387FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z48N4YUHBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurboOffLineTodo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helmethead.ie.TurboOffLineTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE3B875F2B54290900387FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z48N4YUHBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helmethead.ie.TurboOffLineTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurboOffLineTodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurboOffLineTodo";
+			};
+			name = Debug;
+		};
+		FE3B87602B54290900387FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z48N4YUHBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helmethead.ie.TurboOffLineTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurboOffLineTodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurboOffLineTodo";
+			};
+			name = Release;
+		};
+		FE3B87622B54290900387FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z48N4YUHBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helmethead.ie.TurboOffLineTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurboOffLineTodo;
+			};
+			name = Debug;
+		};
+		FE3B87632B54290900387FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z48N4YUHBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helmethead.ie.TurboOffLineTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurboOffLineTodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3B872C2B54290700387FA5 /* Build configuration list for PBXProject "TurboOffLineTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B87592B54290900387FA5 /* Debug */,
+				FE3B875A2B54290900387FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3B875B2B54290900387FA5 /* Build configuration list for PBXNativeTarget "TurboOffLineTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B875C2B54290900387FA5 /* Debug */,
+				FE3B875D2B54290900387FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3B875E2B54290900387FA5 /* Build configuration list for PBXNativeTarget "TurboOffLineTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B875F2B54290900387FA5 /* Debug */,
+				FE3B87602B54290900387FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3B87612B54290900387FA5 /* Build configuration list for PBXNativeTarget "TurboOffLineTodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B87622B54290900387FA5 /* Debug */,
+				FE3B87632B54290900387FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE3B87642B54292B00387FA5 /* XCRemoteSwiftPackageReference "turbo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/turbo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+		FE3B876A2B542AB200387FA5 /* XCRemoteSwiftPackageReference "TurboNavigator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joemasilotti/TurboNavigator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		FE3B87752B5D820100387FA5 /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FE3B87762B5D825700387FA5 /* XCRemoteSwiftPackageReference "GRDBQuery" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDBQuery";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE3B87682B542A8F00387FA5 /* Turbo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE3B87642B54292B00387FA5 /* XCRemoteSwiftPackageReference "turbo-ios" */;
+			productName = Turbo;
+		};
+		FE3B876B2B542AC900387FA5 /* TurboNavigator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE3B876A2B542AB200387FA5 /* XCRemoteSwiftPackageReference "TurboNavigator" */;
+			productName = TurboNavigator;
+		};
+		FE3B87772B5D84C700387FA5 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE3B87752B5D820100387FA5 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+		FE3B87792B5D84C700387FA5 /* GRDBQuery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE3B87762B5D825700387FA5 /* XCRemoteSwiftPackageReference "GRDBQuery" */;
+			productName = GRDBQuery;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FE3B87292B54290700387FA5 /* Project object */;
+}

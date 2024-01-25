@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "03D3A45A-FAA2-4B67-8773-B95EBBA95795"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49589E2B-B8CB-4775-BA02-65699A5BA32B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TurboOffLineTodo/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "handle(proposal:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "49589E2B-B8CB-4775-BA02-65699A5BA32B - 5f6ef667c052e16a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TurboOffLineTodo.SceneDelegate.handle(proposal: Turbo.VisitProposal) -&gt; TurboNavigator.ProposalResult"
+                  moduleName = "TurboOffLineTodo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/williamkennedy/projects/ios/TurboOffLineTodo/TurboOffLineTodo/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "49589E2B-B8CB-4775-BA02-65699A5BA32B - 5f6ef667c052e16a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TurboOffLineTodo.SceneDelegate.handle(proposal: Turbo.VisitProposal) -&gt; TurboNavigator.ProposalResult"
+                  moduleName = "TurboOffLineTodo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/williamkennedy/projects/ios/TurboOffLineTodo/TurboOffLineTodo/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE1FBD3C-EF47-44C9-9575-32063D9028E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TurboOffLineTodo/Models/Todo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "266852DF-9DFA-4F60-BF97-DC6EA25DC7E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TurboOffLineTodo/Models/AppDatabase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "deleteToDo(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BA6128A-84F3-4892-82C9-F501516E4B02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TurboOffLineTodo/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "visitableDidFailRequest(_:error:retry:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C3320C8-2022-4F52-8A2F-90300CC050DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TurboOffLineTodo/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "visitableDidFailRequest(_:error:retry:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C3320C8-2022-4F52-8A2F-90300CC050DE - 58293c2165b433df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TurboOffLineTodo.SceneDelegate.visitableDidFailRequest(_: Turbo.Visitable, error: Swift.Error, retry: () -&gt; ()) -&gt; ()"
+                  moduleName = "TurboOffLineTodo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/williamkennedy/projects/ios/TurboOffLineTodo/TurboOffLineTodo/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "2C3320C8-2022-4F52-8A2F-90300CC050DE - 58293c2165b433df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TurboOffLineTodo.SceneDelegate.visitableDidFailRequest(_: Turbo.Visitable, error: Swift.Error, retry: () -&gt; ()) -&gt; ()"
+                  moduleName = "TurboOffLineTodo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/williamkennedy/projects/ios/TurboOffLineTodo/TurboOffLineTodo/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
